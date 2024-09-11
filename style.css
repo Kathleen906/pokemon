@@ -1,0 +1,68 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bcgd.jpg);
+    background-position: fixed;
+    float:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    }
+
+
+h1 {
+    text-align: center;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+}
+
+.card {
+    transition: 0.3s;
+    width: 150px;
+    height: 210px;
+    border: 1px solid #f1eaf1;
+    transition-duration: 2;
+    background-color:#dbd0d0dc;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+
+}
+
+.card:hover {
+    box-shadow: 0 15px 15px #790c73;
+}
+
+.card:hover img {
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card ul {
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.pokemon-name {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.pokemon-type {
+    font-size: 15px;
+    background-color:#bbb6b69d;
+}
+
+.pokemon-id {
+    font-size: 15px;
+}
